@@ -32,21 +32,19 @@ Maintainer: Peter Spierenbutg <peter.spierenburg at nautel.com>
 Table of Contents
 =================
 
-  I. Adding the mylayer layer to your build
+  I. Adding the meta-minimal-docker layer to your build
  II. Misc
 
 
-I. Adding the mylayer layer to your build
+I. Adding the meta-minimal-docker layer to your build
 =================================================
-
---- replace with specific instructions for the mylayer layer ---
 
 In order to use this layer, you need to make the build system aware of
 it.
 
-Assuming the mylayer layer exists at the top-level of your
+Assuming the meta-minimal-docker layer exists at the top-level of your
 yocto build tree, you can add it to the build system by adding the
-location of the mylayer layer to bblayers.conf, along with any
+location of the meta-minimal-docker layer to bblayers.conf, along with any
 other layers needed. e.g.:
 
   BBLAYERS ?= " \
