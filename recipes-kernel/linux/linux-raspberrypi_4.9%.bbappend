@@ -1,6 +1,4 @@
-LICENSE="CLOSED"
-
-FILESEXTRAPATHS_prepend := "${THISDIR}:${THISDIR}/docker-kernel:"
+FILESEXTRAPATHS_prepend := "${THISDIR}:${THISDIR}/files:"
 
 SRC_URI += "file://ebtables.scc \
             file://lxc.scc \
